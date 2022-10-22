@@ -1,0 +1,22 @@
+{
+  "name": "uzbek-dishes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shokhzhakhon06/uzbek-dishes.git"
+  },
+  "author": "Shokhzhakhon Tursumamatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shokhzhakhon06/uzbek-dishes/issues"
+  },
+  "homepage": "https://github.com/Shokhzhakhon06/uzbek-dishes#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
