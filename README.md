@@ -1,1 +1,1 @@
-# odin-recipes
+# UzbekFood-Recipes-Website
