@@ -1,0 +1,247 @@
+html {
+    margin: 0;
+    min-height: 100%;  
+}
+body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+
+}
+/* .buttom {
+    margin-top: 150px;
+} */
+   
+#header {
+    text-align: center;
+    background-image: url(./images/first.png);
+    background-position: left left;
+    color: whitesmoke;
+    padding: 30px;
+    /*padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 20px;*/
+    /*text-decoration: underline;*/
+    border: 3px solid rgb(58, 126, 49);
+}
+.container {
+    width: 100%;
+    margin: 0;
+}
+#navbar {
+    background-color:rgb(68, 104, 63) ;
+}
+#navbar ul li {
+    list-style-type: none;
+    display: inline;
+    
+
+}
+#navbar ul li a {
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    display: inline-block;
+
+}
+#navbar ul li a:hover {
+    text-shadow: 0 0 5px rgb(59, 210, 230), 0 0 12px rgb(59, 210, 230), 0 0 20px rgb(59, 210, 230);
+    color: white;
+
+}
+
+
+
+#navbar ul li:first-child a {
+    padding-left: 0;
+}
+
+
+#nameplan h2 {
+    background-image: url(./images/naq.jpg);
+    background-position: center top;
+    
+
+}
+#nameplan h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.content {
+    width: 70%; 
+    margin:auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 80px;
+    
+}
+
+#threemainrecipes {
+    padding: 40px;
+    background-color: rgb(63, 129, 129);
+}
+.box {
+    width: 33.3%;
+    float: left;
+
+}
+.box img {
+    max-width: 100%;
+    width: 300px;
+}
+.box h3 {
+    padding-left: 90px;
+}
+.box p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#newrecipes {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+
+}
+#newrecipes .left {
+    padding-left: 15px;
+    
+}
+#newrecipes .right {
+    padding-left: 15px;
+}
+#newrecipes input {
+    padding: 5px;
+}
+#newrecipes input:hover {
+    box-shadow: 0 0 0.6em white;
+
+}
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-3%);
+    background: linear-gradient(rgba(250, 0, 0, 0.7), rgba(107, 39, 0, 0.7));
+    box-shadow: 0 0 0.6em white;
+
+}
+.box-3 {
+    margin: 20px 0;
+    border: 1px solid #555;
+    padding: 20px;
+    background-color: #35424a;
+    color: #fff;
+}
+.box-3 h3 {
+    color: rgba(131, 182, 140, 0.938);
+
+}
+.categories {
+    padding: 0;
+
+}
+.categories li {
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #555;
+    
+}
+/* plov and somsa and non css*/
+.containers {
+    width: 100%;
+    margin: auto;
+}
+.abc { 
+    background-image: url(./images/banff.png);
+    background-position: right bottom;
+    color: #fff;
+    padding: 0 25px;
+    
+}
+.main-content p, img {
+    padding: 15 25px;
+}
+.bg-color {
+    background-color: #35424a;
+    color: #fff;
+}
+.bg-color h3 {
+    padding: 10 25px;
+    color: rgba(131, 182, 140, 0.938);
+}
+.meat {
+    padding: 0 25px;
+    background-color: #9ed0e9;
+}
+.meat h3 {
+    padding: 10 0;
+}
+.cook-time {
+    background-color: #35424a;
+    color: #fff;
+    padding: 15 25px;
+}
+.last-bar h4 {
+    padding: 15px 25px;
+    background-color: coral;
+    color: #fff;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+
+}
+.last-bar a {
+    padding: 15px 25px;
+    background-color: coral;
+    color: #fff;
+}
+.last-bar a:hover{
+    text-shadow: 0 0 5px rgb(34, 53, 56);
+}
+.non {
+    padding: 15px 25px;
+    background-color: chocolate;
+    color: #fff;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+}
+.info-me {
+    text-align: center;
+    background-color: cadetblue;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+

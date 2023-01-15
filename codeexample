@@ -1,0 +1,172 @@
+<!-- <div class="imageplov">
+            <img  src='./images/main-picture.jpg'>
+        </div> -->
+        <!--like i can write new div id with this way #navbar-->
+       
+        <div class="box-2">
+            <h3>The main 3 uzbek dish recipes</h3>
+            <ul>
+                <li><p><a href='./uzbek-foods-recipes/uzbek-plov.html' target="_blank">Uzbek-Plov</a></p></li>
+                <li><p><a href='./uzbek-foods-recipes/uzbek-non.html' target="_blank">Uzbek Non</a></p></li>
+                <li><p><a href='./uzbek-foods-recipes/uzbek-somsa.html'  target="_blank">Uzbek Somsa</a></p></li>     
+            </ul>
+            <button class="button">Read more</button>
+        </div>
+
+        <hr>
+        <div class="box-3">
+            <h3>Products</h3>
+            <ul class="categories">   
+                <li>Category 1</li>
+                <li>Category 2</li>
+                <li>Category 3</li>
+                <li>Category 4</li>
+                <li>Category 5</li>      
+            </ul>
+        </div>
+        
+
+        <br> <!--Break-->
+         <!-- <hr> Horizontal line-->
+
+        <div class="myForm">
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Your name" >
+            
+                <label>Email:</label>
+                <input type="text" placeholder="email address" >
+                
+                <label>Message:</label>
+                <textarea>
+                </textarea>
+                <button class="button">Submit</button>
+        </div> 
+
+         <form>
+            <!-- <label for="fname">
+                Name:
+            <input type="text" placeholder="search" id="fname" name="fname" >
+            </label>
+
+            <label for="age">
+                Age:
+            <input type="number" placeholder="Your age" id="age" name="age" >
+            </label> "Similar way to write under the form code"-->
+
+            <br>
+            <label for="password">
+                Password:
+            <input type="password" placeholder="Your password" id="password" name="password" >
+            </label>
+
+            <label for="Married:">
+                Married:
+            <input type="checkbox" id="Married" name="Married" >
+            </label>
+
+            <label for="gender">
+                Gender: M <input name="Male" type="radio" id="gender" name="gender" > F  <input name="Male" type="radio" id="gender" name="gender" >
+            </label>
+
+
+            <br> <br>
+            <label for="country">
+                Select your country:
+                <select name="country" id="country">
+                    <option value="choose">choose</option>
+                    <option value="us">US</option>
+                    <option value="ru">Russia</option>
+                    <option value="kg">Kyrgyzstan</option>
+                    <option value="uz">Uzbekistan</option>
+                </select>
+            </label>
+        </form>
+
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Anna Anie</td>
+                    <td>nains@gmail.com</td>
+                    <td>564848 68464</td>
+                </tr>
+                <tr>
+                    <td>Alisa Kalisa</td>
+                    <td>njadna@gmail.com</td>
+                    <td>7898749 5545</td>
+                </tr>
+            </tbody>
+        </table>
+
+.imageplov {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: #fff;
+    color: #222;
+    font-size: 15px;
+    border: 1px solid #222;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+
+}
+.box-3 {
+    margin: 20px 0;
+    border: 1px solid #555;
+    padding: 20px;
+}
+.box-3 h3 {
+    text-align: center;
+    color: #555;
+
+}
+.categories {
+    padding: 0;
+
+}
+.categories li {
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #555;
+    
+}
+
+
+
+.myForm label {
+    display: block;
+    font-size: 20px;
+    color: #555;
+}
+.myForm input, .myForm textarea {
+    margin: 8px 0;
+    padding: 5px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
