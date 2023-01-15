@@ -11,7 +11,7 @@
         <div id="navbar">
             <div class="container">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a  id="home_link" href="#">Home</a></li>
                     <li><a href='./uzbek-foods-recipes/uzbek-plov.html' target="_blank">Plov</a></li>
                     <li><a href='./uzbek-foods-recipes/uzbek-somsa.html'  target="_blank">Somsa</a></li>
                     <li><a href='./uzbek-foods-recipes/uzbek-non.html' target="_blank">Bread</a></li>
@@ -86,4 +86,15 @@
             <br>
         <hr>
     </body>
+    <script>
+        const home_button = document.querySelector("#home_link");
+
+        const refreshpage = () =>{
+            location.reload();
+        };
+
+        home_button.addEventListener("click",refreshpage);
+
+
+    </script>
 </html>
